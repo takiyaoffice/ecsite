@@ -3,6 +3,7 @@ import { Header } from '../components/Header'
 import { ProductGrid } from '../components/ProductGrid'
 import { SectionHeading } from '../components/SectionHeading'
 import { pickupProducts } from '../data/products'
+import { assetPath } from '../lib/asset-path'
 
 export function TopPage() {
   return (
@@ -11,7 +12,7 @@ export function TopPage() {
       <main className="flex-1">
         <div className="h-[380px] w-full sm:h-[460px] md:h-[560px] lg:h-[620px]">
           <img
-            src="/hero.svg"
+            src={assetPath('hero.svg')}
             alt=""
             className="h-full w-full object-cover"
           />
@@ -32,7 +33,7 @@ export function TopPage() {
             </div>
             <div className="aspect-[6/5] w-full overflow-hidden bg-blush">
               <img
-                src="/concept.svg"
+                src={assetPath('concept.svg')}
                 alt=""
                 className="h-full w-full object-cover"
               />
