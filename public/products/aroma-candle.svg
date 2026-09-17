@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="g-aroma-candle" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4dcd9"/>
+      <stop offset="1" stop-color="#e9c7c2"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g-aroma-candle)"/>
+  <circle cx="400" cy="300" r="70" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="1.5"/>
+  <line x1="400" y1="250" x2="400" y2="230" stroke="#ffffff" stroke-opacity="0.55" stroke-width="1.5"/>
+</svg>
